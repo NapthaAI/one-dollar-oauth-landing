@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - develop
-      - production
+      - main
 
 jobs:
   deploy:
@@ -46,5 +46,5 @@ jobs:
         run: bun sst deploy --stage dev
 
       - name: Deploy to Production
-        if: github.ref == 'refs/heads/production'
+        if: github.ref == 'refs/heads/main'
         run: bun sst deploy --stage production 
