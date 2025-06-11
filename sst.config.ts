@@ -18,7 +18,7 @@ export default $config({
 			path: "out",
 			build: {
 				command: "npm run build",
-				output: "out",
+				output: "./",
 			},
 			domain: {
 				name: domain,
