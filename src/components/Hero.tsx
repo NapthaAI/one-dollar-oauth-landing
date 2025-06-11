@@ -11,7 +11,7 @@ const Slack = dynamic(() => import("lucide-react").then((mod) => mod.Slack));
 
 const Hero = () => {
 	const handleButtonClick = () => {
-		window.open("https://labs.naptha.ai", "_blank");
+		window.open("https://app.onedollaroauth.com/signup", "_blank");
 	};
 
 	return (

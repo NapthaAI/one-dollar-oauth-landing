@@ -32,10 +32,12 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "tailwind.config.ts"
   ],
   "exclude": [
     "node_modules",
-    "one-dollar-oauth-magic"
+    "sst.config.ts",
+    "sst-env.d.ts"
   ]
 }
