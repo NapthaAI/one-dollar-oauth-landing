@@ -15,10 +15,9 @@ export default $config({
 				? "onedollaroauth.com"
 				: "dev.onedollaroauth.com";
 		new sst.aws.StaticSite("OneDollarOAuthLanding", {
-			path: "out",
 			build: {
 				command: "npm run build",
-				output: "./",
+				output: "./out",
 			},
 			domain: {
 				name: domain,
