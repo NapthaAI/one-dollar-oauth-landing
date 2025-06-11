@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Rules for UI Testing with Playwright
+Use the playwright MCP tools for testing the user interface when you work on it. 
+
+## Dev server
+The bun development server in package.json is always running with hot reloading, so there is NEVER any need to run `npm run dev` or `npm run build`. Never run either of these commands. 
+
+## Logging in 
+When you're ready to look at a UI or test it, navigate to the app on `http://localhost:3000/` (next.js) or `http://localhost:8080` (vite). 
+
+
+## Tool preferences & configurations
+Remember to always use the following options:
+- default viewport (of launch options): use 1920 width and 1080 height
+- headless mode: always enable this to avoid interrupting my workflow.
