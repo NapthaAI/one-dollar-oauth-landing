@@ -15,7 +15,8 @@ export default function Home() {
 			<WhyUseIt />
 			<Pricing />
 			<Footer />
-			<Script src="/x-conversion-tracking.js" />
+			<Script src="/x-pixel.js" />
+			<Script src="/x-event-code.js" />
 		</div>
 	);
 }
