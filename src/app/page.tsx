@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
+import TwitterConversionTracker from "@/components/TwitterConversionTracker";
 import WhatIsIt from "@/components/WhatIsIt";
 import WhyUseIt from "@/components/WhyUseIt";
 
@@ -14,6 +15,7 @@ export default function Home() {
 			<WhyUseIt />
 			<Pricing />
 			<Footer />
+			<TwitterConversionTracker />
 		</div>
 	);
 }
