@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<Script src="/x-pixel.js" />
+				<Script src="/x-pixel.js" async={false} />
 			</Head>
 			<div className="min-h-screen">
 				<Hero />
