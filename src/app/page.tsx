@@ -4,19 +4,24 @@ import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import WhatIsIt from "@/components/WhatIsIt";
 import WhyUseIt from "@/components/WhyUseIt";
+import Head from "next/head";
 import Script from "next/script";
 
 export default function Home() {
 	return (
-		<div className="min-h-screen">
-			<Hero />
-			<WhatIsIt />
-			<HowItWorks />
-			<WhyUseIt />
-			<Pricing />
-			<Footer />
-			<Script src="/x-pixel.js" />
-			<Script src="/x-event-code.js" />
-		</div>
+		<>
+			<Head>
+				<Script src="/x-pixel.js" />
+			</Head>
+			<div className="min-h-screen">
+				<Hero />
+				<WhatIsIt />
+				<HowItWorks />
+				<WhyUseIt />
+				<Pricing />
+				<Footer />
+				<Script src="/x-event-code.js" />
+			</div>
+		</>
 	);
 }
