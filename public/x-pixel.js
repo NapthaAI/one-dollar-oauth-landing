@@ -13,3 +13,4 @@
 		a.parentNode.insertBefore(u, a));
 })(window, document, "script");
 twq("config", "oq5a0");
+twq("event", "tw-oq5a0-oq5a2", {});
